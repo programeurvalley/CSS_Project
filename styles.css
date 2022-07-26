@@ -1,0 +1,88 @@
+.nav-inline {
+    display:inline;
+}
+
+p{
+    font-family: roboto;
+}
+
+body {
+    background-color: #FF1133;
+}
+
+/* Image Effect */
+
+.hover-img-max:hover{
+    height:350px;
+    width:450px;
+    border-radius: 25px;
+    border-style:none;
+}
+
+section .home,.about {
+    display:inline-block;
+}
+
+.home{
+    width:500px;
+    height:500px;
+    margin: 10px;
+    padding:3px;
+}
+.about{
+    width:500px;
+    height:500px;
+    margin: 10px;
+    padding:3px;
+}
+
+.form-style label,input{
+    margin: 10px;
+    border-radius: 20px;
+    border-style:none;
+    height: 30px;
+}
+input::placeholder {
+    text-align: center;
+}
+
+.specail-input:hover{
+    border-color: blue;
+    border-style:solid;
+}
+
+.tel-css{
+    margin-left:45px;
+}
+
+textarea {
+    margin:10px;
+    margin-left: 10px;
+    height: 100px;
+    width: 300px;
+    border-radius: 20px;
+    border-style:none;
+    text-align:left;
+}
+.msg-txtarea {
+    display :block;
+}
+
+.submit {
+    background-color : green;
+    color:white;
+    height: 50px;
+    border-radius: 20px;
+    border-style: None;
+}
+.reset {
+    background-color : red;
+    color:white;
+    height: 50px;
+    border-radius: 20px;
+    border-style: None;
+}
+
+footer {
+    text-align:center;
+}
